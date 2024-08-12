@@ -8,8 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Step 1: Load the Dataset
-file_path = 'C:\\Users\\chandrakanta\\Desktop\\GME_stock.csv'  # Replace with your actual file name
+file_path = 'C:\\Users\\chandrakanta\\Desktop\\GME_stock.csv' 
 stock_data = pd.read_csv(file_path)
 
 # Display the first few rows
